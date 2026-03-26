@@ -2,13 +2,7 @@
 __pycache__/
 *.pyc
 
-# Data folders
-data/bronze/
-data/silver/
-data/gold/
 
-# Raw data (optional)
-data/raw/
 
 # Environment
 .env
@@ -21,6 +15,8 @@ spark-warehouse/
 # Logs
 *.log
 
-data/
-__pycache__/
-*.pyc
+
+# data (add all data keep only sample data )
+data/*
+!data/sample/
+!data/sample/transactions_sample.csv

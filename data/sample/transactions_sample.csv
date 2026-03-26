@@ -1,0 +1,6 @@
+transaction_id,customer_id,amount,category,date
+1,101,500,Food,2024-01-01
+2,102,1200,Shopping,2024-01-02
+3,103,300,Travel,2024-01-03
+4,101,700,Food,2024-01-04
+5,104,1500,Electronics,2024-01-05

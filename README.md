@@ -1,9 +1,16 @@
-# Azure Finance Data Platform
+##  Architecture
+Bronze → Silver → Gold (Medallion Architecture)
 
-End-to-end Azure-style data engineering project using PySpark & Delta Lake.
+##  Data Flow
+Raw CSV → Bronze (Delta) → Silver (Cleaned) → Gold (Aggregated Metrics)
 
-## Run Steps
-pip install pyspark delta-spark pandas faker
+##  Key Features
+- Delta Lake (ACID transactions)
+- Modular pipeline design
+- Config-driven architecture
+- End-to-end orchestration
 
-python data/generate_data.py
-python pipelines/orchestrator.py
+##  Azure Mapping
+- ADF → Orchestrator
+- ADLS → Data folder
+- Databricks → PySpark jobs
