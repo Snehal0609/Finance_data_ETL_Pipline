@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "raw": "data/raw/transactions.csv",
+    "bronze": "data/bronze/transactions",
+    "silver": "data/silver/transactions",
+    "gold": "data/gold/metrics"
+  }
+}

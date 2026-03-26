@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data folders
+data/bronze/
+data/silver/
+data/gold/
+
+# Raw data (optional)
+data/raw/
+
+# Environment
+.env
+venv/
+
+# Spark
+metastore_db/
+spark-warehouse/
+
+# Logs
+*.log
